@@ -103,6 +103,10 @@ public class Bridge implements Iterable<Light> {
         return url;
     }
 
+    public int getLightAmt(){
+        return lights.length;
+    }
+
     @Override
     public Iterator<Light> iterator() {
         return Arrays.asList(lights).iterator();

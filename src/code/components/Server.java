@@ -1,5 +1,7 @@
 package code.components;
 
+import java.net.URL;
+
 public class Server {
 
     private URL url;

@@ -7,7 +7,7 @@ public class API {
     public API(String...servers){
         this.servers = new Server[servers.length];
         for (int i = 0; i < this.servers.length; i++) {
-            this.servers[i] = new Server(s);
+            this.servers[i] = new Server(servers[i]);
         }
     }
 }
